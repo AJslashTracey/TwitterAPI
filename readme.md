@@ -53,7 +53,7 @@ GET /getTweets/:accountName/:amount
 
 📌 **Example Request:**
 ```sh
-GET https://twitterapi-production-ea97.up.railway.app/getTweets/spotonchain/20
+ https://twitterapi-production-ea97.up.railway.app/getTweets/spotonchain/20
 ```
 
 📌 **Response Format:**
