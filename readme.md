@@ -10,36 +10,8 @@ This API fetches tweets from a specified account using the `@0xindie/agent-twitt
 - Fetch tweets from any public Twitter account.
 - Uses a scraper to avoid Twitter API restrictions.
 
----
 
-## 🚀 Setup & Installation
 
-### 1️⃣ **Clone the Repository**
-```sh
-git clone <your-repo-url>
-cd <your-repo-folder>
-```
-
-### 2️⃣ **Install Dependencies**
-```sh
-npm install
-```
-
-### 3️⃣ **Create a `.env` File**
-Add your Twitter account credentials in a `.env` file:
-```env
-account=your_twitter_username
-password=your_twitter_password
-```
-
-### 4️⃣ **Run the Server**
-```sh
-node index.js
-```
-
-Your server should now be running on `http://localhost:5500`.
-
----
 
 ## 📡 API Endpoints
 
@@ -83,8 +55,3 @@ GET /getTweets/:accountName/:amount
 [https://twitterapi-production-ea97.up.railway.app/getTweets/spotonchain/20](https://twitterapi-production-ea97.up.railway.app/getTweets/spotonchain/20)
 
 ---
-
-## 📞 Contact & Support
-For any issues, feel free to open a pull request or contact the repository maintainer!
-
-🚀 Happy Coding!
