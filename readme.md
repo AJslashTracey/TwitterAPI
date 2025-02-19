@@ -1,7 +1,5 @@
 # Twitter Scraper API
 
-This API fetches tweets from a specified account using the `@0xindie/agent-twitter-client`. It is deployed at:
-
 🚀 **Base URL:** `https://twitterapi-production-ea97.up.railway.app`
 
 ---
