@@ -12,7 +12,7 @@ let scraper;  // Define globally
     try {
         console.log("Setting up scraper...");
         scraper = new Scraper();
-        await scraper.login(process.env.account, process.env.password);
+        await scraper.login("customapia98163", "testtesttest");
         console.log("Scraper login successful");
     } catch (error) {
         console.error("Error initializing scraper:", error);
